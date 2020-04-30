@@ -25,6 +25,21 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# Add custom gems
+# Devise
+gem 'devise', '~> 4.7', '>= 4.7.1'
+
+# Tailwindcss
+gem 'tailwindcss', '~> 1.0', '>= 1.0.3'
+
+# Haml
+gem 'haml', '~> 5.1', '>= 5.1.2'
+
+# IEX to get stock quotes
+gem 'iex-ruby-client', '~> 1.1', '>= 1.1.2'
+
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

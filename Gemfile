@@ -32,6 +32,9 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 # Tailwindcss
 gem 'tailwindcss', '~> 1.0', '>= 1.0.3'
 
+# Font awesome
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+
 # Haml
 gem 'haml', '~> 5.1', '>= 5.1.2'
 

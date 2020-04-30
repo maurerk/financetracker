@@ -1,0 +1,13 @@
+%div{ class: "flex flex-col p-6"}
+  %h1 My Portfolio
+  %div{ class: "py-2" }
+    %h3 My Search
+    = form_tag search_stock_path, remote: true, method: :get do
+      %div{ class: "flex flex-row"}
+        %div{ class: ''}
+          = text_field_tag :stock, params[:stock], placeholder: "Stock ticker symbol", autofocus: true, class: ""
+        %div{ class: ''}
+          = button_tag type: :submit do
+            = fa_icon "search 4xl", class: "pl-4"
+
+    #results

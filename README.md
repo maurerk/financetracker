@@ -1,5 +1,11 @@
 # README
 
+This is the finance tracker app from the Complete Ruby on Rails Developer course.
+
+I will try to extend it to not only contain stocks but act as a portfolio for all kind of assets you might own.
+
+created by: Kevin Maurer (with the help of the above mentioned course)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

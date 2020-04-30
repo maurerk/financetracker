@@ -2,12 +2,13 @@
 
 - if @stock
   %div{ class: "flex flex-row"}
-    %div{ class: "p-4"}
-      %div{ class: ""} Ticker:
-      %div{ class: ""}= @stock.ticker
-    %div{ class: "p-4"}
-      %div{ class: ""} Company Name:
-      %div{ class: ""}= @stock.name
-    %div{ class: "p-4"}
-      %div{ class: ""} Last Price:
-      %div{ class: ""}= @stock.last_price
+    = @tracked_stocks.each do |stock|
+      %div{ class: "p-4"}
+        %div{ class: ""} Ticker:
+        %div{ class: ""}= stock.ticker
+      %div{ class: "p-4"}
+        %div{ class: ""} Company Name:
+        %div{ class: ""}= stock.name
+      %div{ class: "p-4"}
+        %div{ class: ""} Last Price:
+        %div{ class: ""}= stock.last_price
